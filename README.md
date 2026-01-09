@@ -7,10 +7,27 @@ Production-ready FastAPI service exposing a YOLOv11 model for Bangladeshi taka n
 ### Highlights
 - YOLOv11 model weights included at [model/best.pt](model/best.pt); no extra download needed
 - FastAPI with Swagger UI for interactive testing
----
-
 - Redis-backed response caching (optional locally, enabled in Compose)
 - Single-command container startup via [docker-compose.yml](docker-compose.yml)
+
+---
+
+## 🚀 Live Demo
+
+The API is deployed and running on Render:
+
+- **Base URL:** https://bangladeshi-taka-note-detection-api.onrender.com
+- **Swagger UI:** https://bangladeshi-taka-note-detection-api.onrender.com/docs
+
+Try it out:
+```bash
+curl -X POST \
+  https://bangladeshi-taka-note-detection-api.onrender.com/predict/ \
+  -H "accept: application/json" \
+  -F "image=@test_images/1000_tk (152).jpg"
+```
+
+> **Note:** Deployed on Render's free tier. The service may experience cold starts (15-30s initial delay), slower inference times, or temporary downtime due to memory and CPU constraints. For production use, consider running locally or upgrading to a paid tier.
 
 ---
 
