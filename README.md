@@ -155,7 +155,6 @@ Bangladeshi_taka_note_detection_api/
 
 ### Additional Documentation
 - Detailed write-up: https://docs.google.com/document/d/1fjOycfDNnaG3pyTWICuxeqY_t5iCIg3ugelWzot7O8Q/edit?usp=sharing
-- Repository mirror (Markdown): [docs/External_Documentation.md](docs/External_Documentation.md)
 
 ---
 
