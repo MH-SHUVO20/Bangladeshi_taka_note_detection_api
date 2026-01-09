@@ -153,14 +153,9 @@ Bangladeshi_taka_note_detection_api/
 - Bounding boxes remain stable across varied lighting and backgrounds.
 - Results depend on input quality; clear, well-lit images perform best.
 
-<<<<<<< HEAD
----
-
 ### Additional Documentation
 - Detailed write-up: https://docs.google.com/document/d/1fjOycfDNnaG3pyTWICuxeqY_t5iCIg3ugelWzot7O8Q/edit?usp=sharing
 - Repository mirror (Markdown): [docs/External_Documentation.md](docs/External_Documentation.md)
-=======
->>>>>>> 1b324b4f00df5b88ac4d588d95ad09b1a68e0322
 
 ---
 
