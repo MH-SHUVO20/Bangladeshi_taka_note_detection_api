@@ -19,13 +19,7 @@ The API is deployed and running on Render:
 - **Base URL:** https://bangladeshi-taka-note-detection-api.onrender.com
 - **Swagger UI:** https://bangladeshi-taka-note-detection-api.onrender.com/docs
 
-Try it out:
-```bash
-curl -X POST \
-  https://bangladeshi-taka-note-detection-api.onrender.com/predict/ \
-  -H "accept: application/json" \
-  -F "image=@test_images/1000_tk (152).jpg"
-```
+**Easiest way to test:** Open the Swagger UI link above and use the interactive interface to upload an image.
 
 > **Note:** Deployed on Render's free tier. The service may experience cold starts (15-30s initial delay), slower inference times, or temporary downtime due to memory and CPU constraints. For production use, consider running locally or upgrading to a paid tier.
 
