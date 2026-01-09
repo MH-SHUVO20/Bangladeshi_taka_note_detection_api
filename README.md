@@ -1,4 +1,4 @@
-### Bangladeshi Taka Note Detection API
+# Bangladeshi Taka Note Detection API
 
 Production-ready FastAPI service exposing a YOLOv11 model for Bangladeshi taka note and coin detection. Upload an image, get back denomination labels, confidence scores, and bounding boxes. Docker Compose bundles the API with Redis for response caching.
 
@@ -158,6 +158,13 @@ Bangladeshi_taka_note_detection_api/
 
 ---
 
+## License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
 ### Author
+
 Md. Mehedi Hasan Shuvo — BSc in Computer Science & Engineering, Bangladesh
 
