@@ -151,14 +151,6 @@ Bangladeshi_taka_note_detection_api/
 - Bounding boxes remain stable across varied lighting and backgrounds.
 - Results depend on input quality; clear, well-lit images perform best.
 
----
-
-### Assignment Compliance
-- Model integration and inference pipeline via YOLOv11.
-- REST API with FastAPI, OpenAPI, and Swagger UI.
-- API tested using `curl.exe` with images in `test_images/`.
-- Docker-based deployment with Compose and optional Redis caching.
-- Clear documentation and structured codebase per Module 12 – Phase 2.
 
 ---
 
