@@ -60,7 +60,7 @@ async def predict_image(image: UploadFile = File(...)):
     #decoding numpy array to OpenCV image
     img = cv2.imdecode(img_arr, cv2.IMREAD_COLOR)
 
-    #checking if image decoding was successful
+    #checking if image decoding was successful or not
     if img is None:
         raise HTTPException(
             status_code=400,
