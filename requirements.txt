@@ -1,0 +1,21 @@
+# FastAPI framework
+fastapi
+
+# ASGI server for running FastAPI
+uvicorn
+
+# YOLOv11 model library
+ultralytics
+
+# Image processing libraries
+opencv-python-headless
+numpy
+
+# For handling image upload in FastAPI
+python-multipart
+
+# For response schema validation
+pydantic
+
+# Redis client library
+redis
